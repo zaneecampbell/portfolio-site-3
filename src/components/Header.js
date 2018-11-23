@@ -1,23 +1,53 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { startLogout } from '../actions/auth';
+import Particles from 'react-particles-js';
+import ParticleConfig from '../assets/particles-config.json';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Button from '@material-ui/core/Button';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
 
-export const Header = ({ startLogout }) => (
-  <header className="header">
-    <div className="content-container">
-      <div className="header__content">
-        <Link className="header__title" to="/dashboard">
-          <h1>Boilerplate</h1>
-        </Link>
-        <button className='button button--link' onClick={startLogout}>Logout</button>
-      </div>
-    </div>
-  </header>
-);
+const styles = theme => ({
+    appBar: {
+        background: '#222222'
+    },
+    indicator: {
+      backgroundColor: '#9c27b0',
+    },
+    label: {
+        fontSize: 18
+    }
+  })
 
-const mapDispatchToProps = (dispatch) => ({
-  startLogout: () => dispatch(startLogout())
-});
+class Header extends React.Component {
+    state = {
+        value: 0
+    };
 
-export default connect(undefined, mapDispatchToProps)(Header);
+    handleChange = (event, value) => {
+        this.setState({ value });
+    };
+
+    render() {
+        const { classes } = this.props;
+        return (
+            <AppBar position='static' className={classes.appBar} >
+                <Tabs
+                value={this.state.value}
+                onChange={this.handleChange}
+                classes={{indicator: classes.indicator}}
+                centered
+                fullWidth
+                >
+                        <Tab label="About" classes={{label: classes.label}} />
+                        <Tab label="Portfolio" classes={{label: classes.label}} />
+                        <Tab label="Contact" classes={{label: classes.label}} />
+                </Tabs>
+            </AppBar>
+        )
+    }
+}
+
+export default withStyles(styles)(Header);
