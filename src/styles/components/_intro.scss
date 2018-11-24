@@ -1,0 +1,15 @@
+.particle-wrapper {
+    canvas {
+        width: 100%;
+        height: calc(100vh - 48px) !important;
+        position: 'absolute';
+        z-index: -1;
+    }
+}
+
+// .particle-wrapper-center {
+//     color: white;
+//     position: absolute;
+//     width: 100%;
+//     height: calc(100vh - 48px) !important;
+// }

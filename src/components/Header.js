@@ -9,9 +9,10 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = theme => ({
+const styles = ({
     appBar: {
-        background: '#222222'
+        background: '#222222',
+        color: 'white'
     },
     indicator: {
       backgroundColor: '#9c27b0',
