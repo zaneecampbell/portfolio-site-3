@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import ParticleConfig from '../assets/particles-config.json';
 import Header from './Header';
 import Intro from './Intro';
+import About from './About';
 
 export const PortfolioPage = () => {
     return (
@@ -12,6 +13,9 @@ export const PortfolioPage = () => {
             <div className='particle-wrapper'>
                 <Intro />
                 <Particles params={ParticleConfig} />
+            </div>
+            <div className='about-wrapper'>
+                <About />
             </div>
         </div>
     )
