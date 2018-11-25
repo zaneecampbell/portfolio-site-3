@@ -4,7 +4,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import SkillsList from './SkillsList';
 import { withStyles } from '@material-ui/core/styles';
+
 
 const styles = theme => ({
     paper: {
@@ -17,7 +19,7 @@ const styles = theme => ({
         background: '#e6e6e6',
         boxShadow: 'none',
         padding: theme.spacing.unit * 2,
-        textAlign: 'right'
+        textAlign: 'center'
     },
     typographyTitle: {
         marginLeft: 75,
@@ -35,10 +37,13 @@ const styles = theme => ({
     typographyTitle2: {
         marginRight: 75,
         marginTop: 75
+    },
+    skillsList: {
+        padding: 100
     }
 })
 
-const About = (props) => {
+export const About = (props) => {
     const { classes } = props;
 
     return (
@@ -65,6 +70,9 @@ const About = (props) => {
                     <Typography className={classes.typographyTitle2} variant='h2'>
                         Skills
                     </Typography>
+                    <div className={classes.skillsList}>
+                        <SkillsList />
+                    </div>
                 </Paper>
             </Grid>
         </Grid>
