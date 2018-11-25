@@ -34,15 +34,16 @@ class Header extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <AppBar position='static' className={classes.appBar} >
+            <AppBar position='fixed' className={classes.appBar} >
                 <Tabs
                 value={this.state.value}
                 onChange={this.handleChange}
                 classes={{indicator: classes.indicator}}
                 centered
                 fullWidth
-                >
-                        <Tab label="About" classes={{label: classes.label}} />
+                >   
+                        <Tab label="Top" href='#top' classes={{label: classes.label}} />
+                        <Tab label="About" href='#about' classes={{label: classes.label}} />
                         <Tab label="Portfolio" classes={{label: classes.label}} />
                         <Tab label="Contact" classes={{label: classes.label}} />
                 </Tabs>
