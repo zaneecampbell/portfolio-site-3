@@ -11,7 +11,9 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme => ({
     paperWrapper: {
         background: '#e6e6e6',
-        boxShadow: 'none'
+        boxShadow: 'none',
+        paddingTop: 50,
+        paddingBottom: 50
     },
     paper: {
         background: '#e6e6e6',
@@ -27,7 +29,6 @@ const styles = theme => ({
     },
     typographyTitle: {
         marginLeft: 75,
-        marginTop: 75
     },
     typographyP1: {
         marginTop: 50,
@@ -36,10 +37,9 @@ const styles = theme => ({
     typographyP2: {
         marginTop: 50,
         marginLeft: 75,
-        marginBottom: 50
     },
     typographyTitle2: {
-        marginTop: 75
+        textDecoration: 'underline'
     },
     skillsList: {
         marginTop: 50
@@ -51,7 +51,7 @@ export const About = (props) => {
 
     return (
         <Paper className={classes.paperWrapper} square={true}>
-            <Grid styles={{margin: '10'}} container>
+            <Grid container>
                 <Grid item xs={12} md={8}>
                     <Paper className={classes.paper}>
                         <Typography className={classes.typographyTitle} variant='h2'>

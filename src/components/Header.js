@@ -44,7 +44,7 @@ class Header extends React.Component {
                 >   
                         <Tab label="Top" href='#top' classes={{label: classes.label}} />
                         <Tab label="About" href='#about' classes={{label: classes.label}} />
-                        <Tab label="Portfolio" classes={{label: classes.label}} />
+                        <Tab label="Portfolio" href='#portfolio' classes={{label: classes.label}} />
                         <Tab label="Contact" classes={{label: classes.label}} />
                 </Tabs>
             </AppBar>
