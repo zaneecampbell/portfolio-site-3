@@ -85,3 +85,6 @@ export const About = (props) => {
 }
 
 export default withStyles(styles)(About);
+
+// Write a better About section
+// Get more icons for Skills (or create a bullet list with skills that dont have icons underneath)

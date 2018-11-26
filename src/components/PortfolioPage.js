@@ -5,6 +5,7 @@ import Header from './Header';
 import Intro from './Intro';
 import About from './About';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 export const PortfolioPage = () => {
     return (
@@ -21,8 +22,14 @@ export const PortfolioPage = () => {
             <div id='portfolio' className='portfolio-wrapper'>
                 <Portfolio />
             </div>
+            <div id='contact' className='contact-wrapper'>
+                <Contact />
+            </div>
         </div>
     )
 }
 
 export default PortfolioPage;
+
+// Finishing touches on everything
+// add contact section

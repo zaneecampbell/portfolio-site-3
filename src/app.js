@@ -11,6 +11,8 @@ import { firebase } from './firebase/firebase';
 
 const store = configureStore();
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true  // updates material-ui typography automatically when next major release happens (Q1 2019)
+
 const jsx = (
   <Provider store={store}>
     <AppRouter />

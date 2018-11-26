@@ -18,7 +18,7 @@ const styles = ({
       backgroundColor: '#9c27b0',
     },
     label: {
-        fontSize: 18
+        fontSize: 15
     }
   })
 
@@ -45,7 +45,7 @@ class Header extends React.Component {
                         <Tab label="Top" href='#top' classes={{label: classes.label}} />
                         <Tab label="About" href='#about' classes={{label: classes.label}} />
                         <Tab label="Portfolio" href='#portfolio' classes={{label: classes.label}} />
-                        <Tab label="Contact" classes={{label: classes.label}} />
+                        <Tab label="Contact" href='#contact' classes={{label: classes.label}} />
                 </Tabs>
             </AppBar>
         )
@@ -53,3 +53,7 @@ class Header extends React.Component {
 }
 
 export default withStyles(styles)(Header);
+
+// size for smaller screens
+// add github link/icon
+// add logo

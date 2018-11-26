@@ -6,10 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
     tooltip: {
-        fontSize: '15px'
-    },
-    typography: {
-        useNextVariants: true,
+        fontSize: '15px',
     }
 });
 
@@ -124,3 +121,5 @@ export const SkillsList = (props) => {
 };
 
 export default withStyles(styles)(SkillsList);
+
+// Add more skills
