@@ -11,11 +11,12 @@ export const PortfolioPage = () => {
     return (
         <div id='top'>
             <Header />
-            {/*Everything in here is on top of the "particles" background, everything has to be absolute*/}
+            {/* Everything in here is on top of the "particles" background, everything has to be absolute */}
             <div className='particle-wrapper'>
                 <Intro />
                 <Particles params={ParticleConfig} />
             </div>
+            {/* End of absolutes */}
             <div id='about' className='about-wrapper'>
                 <About />
             </div>
@@ -32,4 +33,3 @@ export const PortfolioPage = () => {
 export default PortfolioPage;
 
 // Finishing touches on everything
-// add contact section

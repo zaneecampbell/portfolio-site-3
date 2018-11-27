@@ -1,0 +1,117 @@
+#html5-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:  #e34f26;
+        }
+    }
+}
+
+#css3-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill: black;
+        }
+    }
+}
+
+#sass-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#c69;
+        }
+    }
+}
+
+#js-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#f7df1e;
+        }
+    }
+}
+
+#es6-svg {
+    &:hover {
+        #es6-svg1 {
+            transition: .3s ease;
+            fill: #F26522;
+        }
+        #es6-svg2 {
+            transition: .3s ease;
+            fill: #fff
+        }
+    }
+}
+
+#react-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#61dafb;
+        }
+    }
+}
+
+#redux-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#764abc;
+        }
+    }
+}
+
+#webpack-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#8dd6f9;
+        }
+    }
+}
+
+#firebase-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#ffca28;
+        }
+    }
+}
+
+#git-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:#f05032;
+        }
+    }
+}
+
+#github-svg {
+    &:hover {
+        path {
+            transition: .3s ease;
+            fill:black;
+        }
+    }
+}
+
+#material-ui-svg {
+    &:hover {
+        #material-ui-svg1 {
+            transition: .3s ease;
+            fill: #00b0ff;
+        }
+        #material-ui-svg2 {
+            transition: .3s ease;
+            fill: #0081cb;
+        }
+    }
+}
+
+

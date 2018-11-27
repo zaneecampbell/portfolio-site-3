@@ -52,5 +52,5 @@ export const Portfolio = (props) => {
 
 export default withStyles(styles)(Portfolio);
 
-// Get actual images of projects (size them appropriately)
+// Get actual images of projects (size them appropriately using the google chrome tester!)
 // Add Tooltip for images and link to project

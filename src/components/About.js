@@ -71,7 +71,7 @@ export const About = (props) => {
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Paper className={classes.paper2}>
-                        <Typography className={classes.typographyTitle2} variant='h2'>
+                        <Typography id='skill-text' className={classes.typographyTitle2} variant='h2'>
                             Skills
                         </Typography>
                         <div className={classes.skillsList}>
@@ -87,4 +87,4 @@ export const About = (props) => {
 export default withStyles(styles)(About);
 
 // Write a better About section
-// Get more icons for Skills (or create a bullet list with skills that dont have icons underneath)
+// Create dropdown that shows skills that dont have icon

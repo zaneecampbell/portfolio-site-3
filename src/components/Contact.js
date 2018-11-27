@@ -25,7 +25,7 @@ export const Contact = (props) => {
             <Toolbar>
                 <Grid container justify='space-evenly'>
                     <Typography variant="h4" color="default">
-                        Contact Me
+                        Contact &nbsp; &nbsp;
                     </Typography>
                     <Typography variant="h4">
                         <Phone /> &nbsp; 1-405-535-0652
@@ -40,3 +40,5 @@ export const Contact = (props) => {
 };
 
 export default withStyles(styles)(Contact);
+
+// Done
