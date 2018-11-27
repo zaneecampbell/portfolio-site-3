@@ -25,6 +25,19 @@
     }
 }
 
+#material-ui-svg {
+    &:hover {
+        #material-ui-svg1 {
+            transition: .3s ease;
+            fill: #00b0ff;
+        }
+        #material-ui-svg2 {
+            transition: .3s ease;
+            fill: #0081cb;
+        }
+    }
+}
+
 #js-svg {
     &:hover {
         path {
@@ -67,18 +80,26 @@
 
 #webpack-svg {
     &:hover {
-        path {
+        #webpack-svg1{
             transition: .3s ease;
-            fill:#8dd6f9;
+            fill: #8ED6FB;
+        }
+        #webpack-svg2{
+            transition: .3s ease;
+            fill: #1C78C0;
         }
     }
 }
 
-#firebase-svg {
+#react-router-svg {
     &:hover {
-        path {
+        #react-router-svg1{
             transition: .3s ease;
-            fill:#ffca28;
+            fill: #000000;
+        }
+        #react-router-svg2{
+            transition: .3s ease;
+            fill: #D0021B;
         }
     }
 }
@@ -100,18 +121,3 @@
         }
     }
 }
-
-#material-ui-svg {
-    &:hover {
-        #material-ui-svg1 {
-            transition: .3s ease;
-            fill: #00b0ff;
-        }
-        #material-ui-svg2 {
-            transition: .3s ease;
-            fill: #0081cb;
-        }
-    }
-}
-
-

@@ -63,9 +63,8 @@ export const About = (props) => {
                             new library.
                         </Typography>
                         <Typography className={classes.typographyP2} variant='display1'>
-                            Keeping focused has always been a strong point of mine, I keep going till the job is done and I'm satisfied with the results. Taking pride
-                            in my work no matter the project. Developing always leads to something better, the problem solving challenge of it just brings me more
-                            satisfaction.
+                            Highly focused and always ready for a new challenge I keep going till the job is done and I'm satisfied with the results. Taking pride
+                            in my work no matter the project. Developing always leads to problem-solving, solving the problem is one of my greatest satisfactions.
                         </Typography>
                     </Paper>
                 </Grid>
@@ -86,5 +85,5 @@ export const About = (props) => {
 
 export default withStyles(styles)(About);
 
-// Write a better About section
-// Create dropdown that shows skills that dont have icon
+// Done 
+// (maybe better about section after review)
