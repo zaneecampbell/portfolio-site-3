@@ -19,7 +19,10 @@ const styles = theme => ({
         background: '#e6e6e6',
         boxShadow: 'none',
         padding: theme.spacing.unit * 2,
-        textAlign: 'left'
+        textAlign: 'left',
+        [theme.breakpoints.down('sm')]: {
+            textAlign: 'center'
+        }
     },
     paper2: {
         background: '#e6e6e6',
@@ -29,14 +32,26 @@ const styles = theme => ({
     },
     typographyTitle: {
         marginLeft: 75,
+        [theme.breakpoints.down('sm')]: {
+            margin: 'auto'
+        }
     },
     typographyP1: {
         marginTop: 50,
-        marginLeft: 75
+        marginLeft: 75,
+        [theme.breakpoints.down('sm')]: {
+            marginTop: 50,
+            marginLeft: 'auto'
+        }
     },
     typographyP2: {
         marginTop: 50,
         marginLeft: 75,
+        [theme.breakpoints.down('sm')]: {
+            marginTop: 50,
+            marginLeft: 'auto',
+            marginBottom: 50
+        }
     },
     typographyTitle2: {
         textDecoration: 'underline'

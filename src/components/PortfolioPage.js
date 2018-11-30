@@ -11,6 +11,7 @@ export const PortfolioPage = () => {
     // smaller screens less particles for visibility and performance
     if (screen.width < 960) {
         particleConfig.particles.number.value= 10
+        particleConfig.particles.line_linked.opacity= 1
     }
 
     return (
