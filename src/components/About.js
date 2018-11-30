@@ -21,7 +21,7 @@ const styles = theme => ({
         padding: theme.spacing.unit * 2,
         textAlign: 'left',
         [theme.breakpoints.down('sm')]: {
-            textAlign: 'center'
+            textAlign: 'left'
         }
     },
     paper2: {
