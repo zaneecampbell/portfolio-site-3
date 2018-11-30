@@ -24,7 +24,7 @@ export const Contact = (props) => {
     return (
         <AppBar position="static" className={classes.appBar}>
             <Toolbar>
-                <Grid container justify='space-evenly' alignItems='center'>
+                <Grid container justify='space-evenly'>
                     <Typography style={{marginTop: '10px'}} variant="h4" color="default">
                         Contact &nbsp; &nbsp;
                     </Typography>
