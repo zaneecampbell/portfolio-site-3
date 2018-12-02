@@ -1,7 +1,9 @@
-# Git Commands
+Portfolio Site
 
-git init - Create a new git repo
-git status - View the changes to your project code
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+First real experience using Material-UI
+
+LIVE DEMO: https://zane-portfolio-project.herokuapp.com/
+
+or
+
+FROM CMD: yarn run dev-server, Open Browser, Go to: localhost:8080

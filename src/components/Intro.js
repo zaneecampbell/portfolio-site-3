@@ -28,5 +28,4 @@ export const Intro = (props) => {
 export default withStyles(styles)(Intro);
 
 // Add Logo
-// Profile picture
 // Changing glitch text with quips about me

@@ -6,6 +6,10 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import SkillsList from './SkillsList';
 import { withStyles } from '@material-ui/core/styles';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 const styles = theme => ({
@@ -13,7 +17,7 @@ const styles = theme => ({
         background: '#e6e6e6',
         boxShadow: 'none',
         paddingTop: 50,
-        paddingBottom: 50
+        paddingBottom: 0
     },
     paper: {
         background: '#e6e6e6',
@@ -73,7 +77,7 @@ export const About = (props) => {
                             About:
                         </Typography>
                         <Typography className={classes.typographyP1} variant='display1'>
-                            Hi, I'm Zane a React focused Front-End Developer. I moved here from Oklahoma for better job opportunities and I've been studying ever since.
+                            Hi, I'm Zane a React focused Front-End Developer. I moved here from Oklahoma for better career opportunities and I've been studying ever since.
                             Learning is my passion and programming has been the best outlet I could have found, always looking for that next answer or practicing that
                             new library.
                         </Typography>
@@ -90,6 +94,16 @@ export const About = (props) => {
                         </Typography>
                         <div className={classes.skillsList}>
                             <SkillsList />
+                            <ExpansionPanel classes={{root: styles.paperExpansion}} style={{marginTop: '0px', background: 'none', boxShadow: 'none', border: 'none', outline: 'none'}}>
+                                <ExpansionPanelSummary style={{borderTop: 'none'}}  expandIcon={<ExpandMoreIcon />}>              
+                                </ExpansionPanelSummary>
+                                <ExpansionPanelDetails>
+                                    <Typography style={{ textAlign: 'center', margin: 'auto' }} variant='h5'>
+                                        Others: <br />
+                                        NPM, Yarn, Jest, Enzyme, and Thunk
+                                    </Typography>
+                                </ExpansionPanelDetails>
+                            </ExpansionPanel>
                         </div>
                     </Paper>
                 </Grid>
