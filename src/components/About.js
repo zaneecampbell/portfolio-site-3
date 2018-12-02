@@ -34,6 +34,11 @@ const styles = theme => ({
         padding: theme.spacing.unit * 2,
         textAlign: 'center'
     },
+    paperExpansion: {
+        '&:before': {
+            height: 0
+        }
+    },
     typographyTitle: {
         marginLeft: 75,
         [theme.breakpoints.down('sm')]: {
@@ -94,7 +99,7 @@ export const About = (props) => {
                         </Typography>
                         <div className={classes.skillsList}>
                             <SkillsList />
-                            <ExpansionPanel classes={{root: styles.paperExpansion}} style={{marginTop: '0px', background: 'none', boxShadow: 'none', border: 'none', outline: 'none'}}>
+                            <ExpansionPanel classes={{root: classes.paperExpansion}} style={{marginTop: '0px', background: 'none', boxShadow: 'none', border: 'none', outline: 'none'}}>
                                 <ExpansionPanelSummary style={{borderTop: 'none'}}  expandIcon={<ExpandMoreIcon />}>              
                                 </ExpansionPanelSummary>
                                 <ExpansionPanelDetails>
@@ -114,5 +119,6 @@ export const About = (props) => {
 
 export default withStyles(styles)(About);
 
+// Fix that elevation on dropdown before
 // Done 
 // (maybe better about section after review)
