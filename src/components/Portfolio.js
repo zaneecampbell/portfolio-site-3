@@ -22,7 +22,7 @@ const styles = theme => ({
         }
     },
     tooltip: {
-        fontSize: '15px'
+        fontSize: '40px'
     }
 });
 
@@ -41,7 +41,7 @@ export const Portfolio = (props) => {
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Voting App'>
                     <a target='_blank' href='https://cool-poll.herokuapp.com/'>
                         <Paper classes={{root: classes.paperProjects}}>
-                            <img width='100%' height='auto' src='images/Vote App.PNG' />
+                            <img width='100%' height='auto' src='images/ResultsPage 3.png' />
                         </Paper>
                     </a>
                 </Tooltip>
@@ -49,14 +49,14 @@ export const Portfolio = (props) => {
             <Grid item xs={12} lg={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
                     <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/Vote App.PNG' />
+                        <img width='100%' height='auto' src='images/ResultsPage 3.png' />
                     </Paper>
                 </Tooltip>
             </Grid>
             <Grid item xs={12} lg={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
                     <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/Vote App.PNG' />
+                        <img width='100%' height='auto' src='images/ResultsPage 3.png' />
                     </Paper>
                 </Tooltip>
             </Grid>
