@@ -105,7 +105,7 @@ export const About = (props) => {
                                 <ExpansionPanelDetails>
                                     <Typography style={{ textAlign: 'center', margin: 'auto' }} variant='h5'>
                                         Others: <br />
-                                        NPM, Yarn, Jest, Enzyme, and Thunk
+                                        NPM, Yarn, Jest, Enzyme, Firebase, and Thunk
                                     </Typography>
                                 </ExpansionPanelDetails>
                             </ExpansionPanel>
@@ -119,6 +119,5 @@ export const About = (props) => {
 
 export default withStyles(styles)(About);
 
-// Fix that elevation on dropdown before
 // Done 
 // (maybe better about section after review)
