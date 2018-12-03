@@ -1,9 +1,9 @@
 This is my 3rd rebuild of a portfolio site.
-It uses React for a front-end, and an Express boilerplate for back-end, firebase as a database, Redux for localstate, and Material-UI for styling.
-It's mostly done outside of me styling more portfolio pieces to add to the portfolio section.
+It uses React for a front-end, and an Express boilerplate for back-end, and Material-UI for styling.
+It's mostly done outside of me styling more portfolio pieces to add to the portfolio section and getting rid of the placeholders there now.
 Future features are listed at the bottom of the respective code for the components this is still WIP.
 
-This was my first real attempt at using Material-UI and launching a proper webpage.
+This was my first real attempt at using Material-UI and launching a proper webpage. Most things are interactive in some way.
 
 LIVE DEMO: https://zane-portfolio-project.herokuapp.com/
 
