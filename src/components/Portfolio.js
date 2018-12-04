@@ -47,16 +47,18 @@ export const Portfolio = (props) => {
                 </Tooltip>
             </Grid>
             <Grid item xs={12} lg={6}>
-                <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
-                    <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/ResultsPage 3.png' />
-                    </Paper>
+                <Tooltip classes={{ tooltip: classes.tooltip }} title='Weather App'>
+                    <a target='_blank' href='https://weather-app2.herokuapp.com/'>
+                        <Paper classes={{root: classes.paperProjects}}>
+                            <img width='100%' height='auto' src='images/Weather App.png' />
+                        </Paper>
+                    </a>
                 </Tooltip>
             </Grid>
             <Grid item xs={12} lg={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
                     <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/ResultsPage 3.png' />
+                        <img width='100%' height='auto' src='images/Weather App.png' />
                     </Paper>
                 </Tooltip>
             </Grid>
