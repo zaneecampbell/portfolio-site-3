@@ -13,6 +13,10 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 const styles = theme => ({
+    container: {
+        maxWidth: '1920px',
+        margin: 'auto'
+    },
     paperWrapper: {
         background: '#e6e6e6',
         boxShadow: 'none',
@@ -75,7 +79,7 @@ export const About = (props) => {
 
     return (
         <Paper className={classes.paperWrapper} square={true}>
-            <Grid container>
+            <Grid classes={{container: classes.container}} container>
                 <Grid item xs={12} md={8}>
                     <Paper className={classes.paper}>
                         <Typography className={classes.typographyTitle} variant='h2'>

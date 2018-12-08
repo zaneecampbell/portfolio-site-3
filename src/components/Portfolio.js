@@ -6,6 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip'
 
 const styles = theme => ({
+    container: {
+        maxWidth: '1920px',
+        margin: 'auto'
+    },
     paperWrapper: {
         textAlign: 'center',
         background: '#ffffff',
@@ -18,7 +22,7 @@ const styles = theme => ({
         marginLeft: '75px',
         marginRight: '75px',
         [theme.breakpoints.down('sm')]: {
-            margin: '10px'
+            margin: '15px'
         }
     },
     tooltip: {
@@ -31,7 +35,7 @@ export const Portfolio = (props) => {
 
   return (
     <Paper className={classes.paperWrapper} square={true}>
-        <Grid container spacing={0}>
+        <Grid classes={{container: classes.container }}container spacing={0}>
             <Grid item xs={12} style={{paddingBottom: '25px'}}>
                 <Typography variant='h2'>
                     Portfolio
@@ -41,24 +45,24 @@ export const Portfolio = (props) => {
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Voting App'>
                     <a target='_blank' href='https://cool-poll.herokuapp.com/'>
                         <Paper classes={{root: classes.paperProjects}}>
-                            <img width='100%' height='auto' src='images/ResultsPage 3.png' />
+                            <img width='100%' height='auto' src='images/ResultsPage 3-2.png' />
                         </Paper>
                     </a>
                 </Tooltip>
             </Grid>
-            <Grid item xs={12} lg={6}>
+            <Grid item md={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Weather App'>
                     <a target='_blank' href='https://weather-app2.herokuapp.com/'>
                         <Paper classes={{root: classes.paperProjects}}>
-                            <img width='100%' height='auto' src='images/Weather App.png' />
+                            <img width='100%' height='auto' src='images/Weather App2.png' />
                         </Paper>
                     </a>
                 </Tooltip>
             </Grid>
-            <Grid item xs={12} lg={6}>
+            <Grid item md={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
                     <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/Weather App.png' />
+                        <img width='100%' height='auto' src='images/Weather App2.png' />
                     </Paper>
                 </Tooltip>
             </Grid>
