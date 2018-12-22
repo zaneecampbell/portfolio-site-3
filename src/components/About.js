@@ -86,13 +86,14 @@ export const About = (props) => {
                             About:
                         </Typography>
                         <Typography className={classes.typographyP1} variant='display1'>
-                            Hi, I'm Zane a React focused Front-End Developer. I moved here from Oklahoma for better career opportunities and I've been studying ever since.
-                            Learning is my passion and programming has been the best outlet I could have found, always looking for that next answer or practicing that
-                            new library.
+                            Hi, I'm Zane a React focused Front-End Developer. I relocated here from Oklahoma for better career opportunities and I've been studying 
+                            ever since. Outside of development I enjoy cooking new things and bantering with friends.
+                            Learning is my passion and programming has been the best outlet I could have found, always looking for that next answer, practicing that
+                            new library, or sifting through documentation for better understanding.
                         </Typography>
                         <Typography className={classes.typographyP2} variant='display1'>
                             Highly focused and always ready for a new challenge I keep going till the job is done and I'm satisfied with the results. Taking pride
-                            in my work no matter the project. Developing always leads to problem-solving, solving the problem is one of my greatest satisfactions.
+                            in my work no matter the project. Developing always leads to problem-solving, and problem solving is the most interactive way to learn.
                         </Typography>
                     </Paper>
                 </Grid>
