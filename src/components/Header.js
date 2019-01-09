@@ -88,3 +88,4 @@ class Header extends React.Component {
 export default withStyles(styles)(Header);
 
 // Make it a scrolling effect so it does go from dark to light for eye purposes
+// make the tab change with scrolling
