@@ -42,6 +42,15 @@ export const Portfolio = (props) => {
                 </Typography>
             </Grid>
             <Grid item xs={12}>
+                <Tooltip classes={{ tooltip: classes.tooltip }} title='Cookbook App'>
+                    <a target='_blank' href='https://cool-poll.herokuapp.com/'>
+                        <Paper classes={{root: classes.paperProjects}}>
+                            <img width='100%' height='auto' src='images/CookBook App1.png' />
+                        </Paper>
+                    </a>
+                </Tooltip>
+            </Grid>
+            <Grid item md={6}>
                 <Tooltip classes={{ tooltip: classes.tooltip }} title='Voting App'>
                     <a target='_blank' href='https://cool-poll.herokuapp.com/'>
                         <Paper classes={{root: classes.paperProjects}}>
@@ -57,13 +66,6 @@ export const Portfolio = (props) => {
                             <img width='100%' height='auto' src='images/Weather App2.png' />
                         </Paper>
                     </a>
-                </Tooltip>
-            </Grid>
-            <Grid item md={6}>
-                <Tooltip classes={{ tooltip: classes.tooltip }} title='Placeholder'>
-                    <Paper classes={{root: classes.paperProjects}}>
-                        <img width='100%' height='auto' src='images/Weather App2.png' />
-                    </Paper>
                 </Tooltip>
             </Grid>
         </Grid>
