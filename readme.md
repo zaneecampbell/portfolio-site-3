@@ -1,11 +1,13 @@
+UPDATED VERSION IN PORTFOLIO-FINAL
+
 This is my 3rd rebuild of a portfolio site.
-It uses React for a front-end, and an Express boilerplate for back-end, and Material-UI for styling.
-It's mostly done outside of me styling more portfolio pieces to add to the portfolio section and getting rid of the placeholders there now.
-Future features are listed at the bottom of the respective code for the components this is still WIP.
+It uses React for a front-end, and Material-UI for styling.
+This will always be a WIP as I create and add more portfolio pieces.
+Future features ideas are listed at the bottom of the respective code for the components this is still WIP.
 
 This was my first real attempt at using Material-UI and launching a proper webpage. Most things are interactive in some way.
 
-LIVE DEMO: https://zane-portfolio-project.herokuapp.com/
+LIVE DEMO: www.zane-campbell.com
 
 or
 
